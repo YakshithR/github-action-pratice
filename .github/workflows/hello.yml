@@ -1,0 +1,24 @@
+# Workflows
+# should have names
+
+name: Hello
+
+on:
+  workflow_dispatch: 
+
+# Jobs
+# inside the workflow
+
+jobs:
+ # first job indatation
+  say-hello:
+  #creates and ephermal container 
+   runs-on: ubuntu-latest
+   steps:
+       - name: say hello to everyone
+         run: echo "hello bros"
+# Steps
+# Should be inside jobs
+
+# Actions
+# should be inside steps
