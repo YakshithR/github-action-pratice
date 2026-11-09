@@ -14,9 +14,15 @@ jobs:
 
      - name: install linter
        run: pip install ruff
+       
+     - name: fix by linter
+       run: ruff check . --fix
 
      - name: run linter
        run: ruff check .
+
+     
+       
 
        
        
