@@ -2,7 +2,7 @@ import time
 import os
 from datetime import datetime
 
-APP_NAME = "VYROXX.Site"
+APP_NAME = "VYROXX"
 PORT = 5000
 
 print("=" * 40)
